@@ -1,0 +1,129 @@
+/* Default Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-size: 1em;
+    background-image: url('images/bg.png');
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+a {
+    color: #703e99;
+}
+li {
+    color: #fff;
+}
+h1, h2, h3 {
+    margin-top: 0;
+    color: #FFF;
+}
+p {
+    color: #FFF;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+section {
+    margin-bottom: 1.5em;
+    padding: 5px;
+}
+
+/* Nav Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    color: #FFF;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 5px 10px;
+}
+nav ul li a:hover {
+    background-color: #703e99;
+    border-radius: 5px;
+}
+/* Wireframe Styles */
+header {
+    background-color: #333;
+    background-image: url('images/bg01.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    border-radius: 5px;
+}
+main {
+    padding: 1em;
+    line-height: 1.6;
+}
+footer {
+    background-color: #333;
+    background-image: url('images/bg01.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Class/ID-based Styles */
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: none;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.icon {
+    max-width:30px;
+    display:inline;
+    vertical-align:middle;
+}
+.portfolioimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+}
+.portfoliodiv {
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    margin-top:5px;
+    padding:5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #wrapper {
+        width: 95%;
+    }
+    .portfolioimg {
+        max-width: 70%;
+    }
+}
+@media (max-width: 420px) {
+    .portfolioimg {
+        max-width: 90%;
+    }
+}
